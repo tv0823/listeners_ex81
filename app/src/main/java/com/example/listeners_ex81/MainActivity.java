@@ -1,5 +1,6 @@
 package com.example.listeners_ex81;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,5 +41,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void resultbtn(View view) {
+        Intent si = new Intent(this,GameResultsActivity.class);
+        si.putExtra("blueCounter",blueCounter);
+        si.putExtra("redCounter",redCounter);
+        blueCounter = 0;
+        redCounter = 0;
+        startActivity(si);
     }
 }

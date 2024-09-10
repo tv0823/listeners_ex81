@@ -59,10 +59,10 @@
                 android:layout_weight="50" />
 
             <Button
-                android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="100"
+                android:onClick="resultbtn"
                 android:text="Go to results" />
 
             <Space
