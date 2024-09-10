@@ -29,12 +29,12 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/blueBtn"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#0077B6"
-                android:text="Button" />
+                android:text="Blue Button" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="100"
-                android:text="Button" />
+                android:text="Go to results" />
 
             <Space
                 android:layout_width="0dp"
@@ -88,12 +88,12 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/redBtn"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#E3242B"
-                android:text="Button" />
+                android:text="Red Button" />
 
             <Space
                 android:layout_width="wrap_content"
