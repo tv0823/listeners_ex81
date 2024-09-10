@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         redBtn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                redCounter ++;
+                redCounter += 2;
                 return true;
             }
         });

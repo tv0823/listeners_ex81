@@ -34,7 +34,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#0077B6"
-                android:text="Blue Button" />
+                android:text="Blue Button\nCLICK ME"
+                android:textSize="34sp" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -63,7 +64,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="100"
                 android:onClick="resultbtn"
-                android:text="Go to results" />
+                android:text="Show Results"
+                android:textSize="20sp" />
 
             <Space
                 android:layout_width="0dp"
@@ -93,7 +95,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#E3242B"
-                android:text="Red Button" />
+                android:text="Red Button\nCLICK ME"
+                android:textSize="34sp" />
 
             <Space
                 android:layout_width="wrap_content"
