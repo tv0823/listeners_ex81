@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
 
     Button blueBtn, redBtn;
     int blueCounter, redCounter;
@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        redBtn.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                redCounter += 2;
-                return true;
-            }
-        });
+        redBtn.setOnLongClickListener(this);
 
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+        redCounter += 2;
+        return true;
     }
 
     public void resultbtn(View view) {
@@ -51,4 +51,5 @@ public class MainActivity extends AppCompatActivity {
         redCounter = 0;
         startActivity(si);
     }
+
 }
