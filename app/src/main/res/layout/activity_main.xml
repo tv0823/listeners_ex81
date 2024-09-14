@@ -95,7 +95,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#E3242B"
-                android:text="Red Button\nCLICK ME"
+                android:text="Red Button\nCLICK ME\nLONG"
                 android:textSize="34sp" />
 
             <Space
